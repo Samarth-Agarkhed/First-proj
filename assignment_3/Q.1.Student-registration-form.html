@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            Student registration form project
+        </title>
+    </head>
+    <body>
+        <fieldset style="border: 2px dotted orange">
+            <legend>Student registration form</legend>
+            <br>
+        <form>
+            <label>
+                Name:
+            </label>
+            <input type="text" name="name" autofocus autocomplete="on" maxlength="12" minlength="3" required>
+            <br>
+            Age:
+            <input type="text" name="Age" autocomplete="on"> 
+            <br>
+            Email:
+            <input type="email" name="email" autocomplete="on">
+            <br>
+
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female
+            <br>
+             
+            Course:
+            <input list="course">
+            <datalist id="course">
+            <option>Diploma</option>
+            <option>BE</option>
+            </datalist>
+            <br>
+
+            
+            <input type="Button" value="Register">
+            
+        </form>
+        </fieldset>
+    </body>
+</html>

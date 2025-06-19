@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            Customer Feedback Form
+        </title>
+    </head>
+    <body>
+        <form>
+        <fieldset style="border: 2px dotted orange">
+            <legend>Customer Feedback Form</legend>
+            <i>Name:</i>
+            <br>
+            <input type="name" name="name" autofocus autocomplete="yes" maxlength="12" minlength="2" required>
+            <br>
+            <i>Contact:</i>
+            <br>
+            <input type="number" name="number" required maxlength="10">
+            <br>
+            <i>Address:</i>
+            <br>
+            <textarea rowz="20" cols="50">
+            </textarea>
+            <br>
+            <i>Rating:</i>
+            <br>
+            <input list="Rating">
+            <datalist id="Rating">
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+            </datalist>
+            <br>
+            <br>
+
+
+            <input type="Submit" name="Button">
+        </fieldset>
+        </form>
+    </body>
+</html>
